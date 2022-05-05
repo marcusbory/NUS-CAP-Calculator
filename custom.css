@@ -1,0 +1,59 @@
+.center {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input-text {
+  font-size: large;
+}
+
+.primary {
+  background-color: #f68b0f;
+  color: #fefffc;
+  border-color: #153683;
+  border-width: 4px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: red;
+  border-color: red;
+}
+
+.card-body {
+  padding: 8px !important;
+}
+
+.submit-btn {
+  background-color: #FC493E;
+  color: rgb(250, 238, 231);
+  margin-top: 8px;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.blank {
+  background: none;
+}
+
+.card {
+  background-color: rgb(250, 238, 231) !important;
+  border-color: rgb(50, 82, 136) !important;
+  margin: 20px 12px !important;
+}
+
+input {
+  width: 80%;
+  margin-bottom: 16px !important;
+}
+
+textarea {
+  width: 80%;
+}
+
+#counter {
+  font-size: 36px;
+}
