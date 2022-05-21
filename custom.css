@@ -1,11 +1,21 @@
 .center {
-  width: 500px;
   margin: 0 auto;
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .center { width: 400px; }
+}
+@media only screen and (min-width: 600px) {
+  .center { width: 600px; }
+}
+
 .input-text {
   font-size: large;
+}
+
+.navbar {
+  color: white !important;
 }
 
 .primary {
